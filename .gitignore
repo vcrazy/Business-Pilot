@@ -1,3 +1,4 @@
 /nbproject/*
 /application/logs/*
 /user_guide/*
+/application/config/database.php
