@@ -1,0 +1,23 @@
+body {width: 980px; margin: 0 auto; background-color: #ddd;}
+#content {background-color: white;}
+#logo {text-align: center; padding: 20px 0px;}
+#logo img {width: 300px;}
+
+form#post {padding: 20px; width: 800px; margin: 0px 110px 0px 70px;}
+form#post input, form#post select, form#post textarea {width: 250px; height: 20px; font-size: 13px; border-radius: 3px; border: 1px solid #aaa; padding: 3px 5px;}
+form#post input[type="text"]#scheduled {width: 224px;}
+form#post select {padding: 0px 0px 0px 5px; width: 262px; height: 25px;}
+form#post textarea {width: 650px; height: 50px; padding: 3px 5px;}
+form#post input[type="checkbox"] {width: 15px; height: 15px;}
+form#post input[type="submit"] {width: 140px; height: 30px; margin-top: 20px; background-color: #88c; font-weight: bold; color: white; letter-spacing: 1px;}
+form#post input[type="submit"]:hover {cursor: pointer; background-color: #aaf;}
+
+.line {width: 262px; float: left; padding-bottom: 10px; border-bottom: 1px solid #ccc; height: 50px;}
+.line.first {margin-right: 138px; margin-left: 69px;}
+.onlyone {margin-left: 69px;}
+.linetext {padding: 5px 0px;}
+.linesubmit {margin: 10px 69px; text-align: center;}
+.ui-datepicker {font-size: 13px;}
+
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: block; height: 1%;}
